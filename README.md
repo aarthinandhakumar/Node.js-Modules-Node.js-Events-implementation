@@ -2,35 +2,32 @@
 
 This assignment involves building a simple Node.js application that works with a JSON data file containing ZIP code information. The application includes functionalities to lookup information by ZIP code, by city and state, and to get the population by state.
 
-## Part 1: Lookup by ZIP Code
+## Part 1: Node.js modules
 ## Functionality:
 
-Implement the lookupByZipCode function in the zipCodeModule_v1.js file.
-The function should take a ZIP code as input and return the corresponding city, state, and population.
+The zipCodeModule_v1.js module should export the functions lookupByZipCode(zip), lookupByCityState(city,state) and getPopulationByState(state) only by using for loops and if statements.
 
 ## Usage:
 
-The hw1a.js file should use this function to look up and display information for a given ZIP code.
+The hw1a.js file should use this functionality to look up by zipcode, by city and state, and to get population by state.
 
-## Part 2: Lookup by City and State
+## Part 2: Node.js modules
 ## Functionality:
 
-Implement the lookupByCityState function in the zipCodeModule_v2.js file.
-The function should take a city and state as input and return a list of ZIP codes and populations for that city.
+The zipCodeModule_v2.js module should export the functions lookupByZipCode(zip), lookupByCityState(city,state) and getPopulationByState(state) only by using array methods like find, filter, map and reduce.
 
 ## Usage:
 
-The hw1b.js file should use this function to look up and display information for a given city and state.
+The hw1b.js file should use this functionality to look up by zipcode, by city and state, and to get population by state.
 
-## Part 3: Get Population by State
+## Part 3: Node.js events
 ## Functionality:
 
-Implement the getPopulationByState function in the zipCodeModule_v1.js file.
-The function should take a state as input and return the total population for that state.
+The ZipCodeEmitter class provides the member functions lookupByZipCode(zip), lookupByCityState(city,state) and getPopulationByState(state) to emit the respective event names along with the results in the part 1 and 2.
 
 ## Usage:
 
-The hw1c.js file should use this function to look up and display the total population for a given state.
+The hw1c.js file should use this function to look up by zipcode, by city and state, and to get population by state and to emit the respective events.
 
 ## Installation
 
