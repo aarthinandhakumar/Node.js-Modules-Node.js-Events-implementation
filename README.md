@@ -34,15 +34,15 @@ The hw1c.js file should use this function to look up and display the total popul
 
 ## Installation
 
-Ensure you have Node.js installed on your machine.
-Navigate to the project directory: 
-npm install
+1. Ensure you have Node.js installed on your machine.
+2. Navigate to the project directory: 
+3. npm install
 
 ## Running the Application
 
-node hw1a.js
-node hw1b.js
-node hw1c.js
+1. node hw1a.js
+2. node hw1b.js
+3. node hw1c.js
 
 ## License
 
