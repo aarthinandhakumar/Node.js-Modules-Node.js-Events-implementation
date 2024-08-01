@@ -43,4 +43,4 @@ The hw1c.js file should use this function to look up by zipcode, by city and sta
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
+This project is licensed under the MIT License - see the [LICENSE](License.txt) file for details.
